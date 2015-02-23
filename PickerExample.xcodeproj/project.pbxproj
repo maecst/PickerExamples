@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1CD491DD1A9927FB00DA46F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD491DC1A9927FB00DA46F8 /* AppDelegate.swift */; };
-		1CD491DF1A9927FB00DA46F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD491DE1A9927FB00DA46F8 /* ViewController.swift */; };
+		1CD491DF1A9927FB00DA46F8 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD491DE1A9927FB00DA46F8 /* DatePickerController.swift */; };
 		1CD491E21A9927FB00DA46F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD491E01A9927FB00DA46F8 /* Main.storyboard */; };
 		1CD491E41A9927FB00DA46F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD491E31A9927FB00DA46F8 /* Images.xcassets */; };
 		1CD491E71A9927FB00DA46F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD491E51A9927FB00DA46F8 /* LaunchScreen.xib */; };
 		1CD491F31A9927FB00DA46F8 /* PickerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD491F21A9927FB00DA46F8 /* PickerExampleTests.swift */; };
+		1CD491FD1A9928D300DA46F8 /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD491FC1A9928D300DA46F8 /* ColorPickerController.swift */; };
+		1CD491FF1A9928E700DA46F8 /* FontPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD491FE1A9928E700DA46F8 /* FontPickerController.swift */; };
+		1CD492011A9928F700DA46F8 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD492001A9928F700DA46F8 /* OutputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		1CD491D71A9927FB00DA46F8 /* PickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD491DB1A9927FB00DA46F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD491DC1A9927FB00DA46F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CD491DE1A9927FB00DA46F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CD491DE1A9927FB00DA46F8 /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
 		1CD491E11A9927FB00DA46F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CD491E31A9927FB00DA46F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1CD491E61A9927FB00DA46F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1CD491EC1A9927FB00DA46F8 /* PickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD491F11A9927FB00DA46F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD491F21A9927FB00DA46F8 /* PickerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleTests.swift; sourceTree = "<group>"; };
+		1CD491FC1A9928D300DA46F8 /* ColorPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerController.swift; sourceTree = "<group>"; };
+		1CD491FE1A9928E700DA46F8 /* FontPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontPickerController.swift; sourceTree = "<group>"; };
+		1CD492001A9928F700DA46F8 /* OutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				1CD491DC1A9927FB00DA46F8 /* AppDelegate.swift */,
-				1CD491DE1A9927FB00DA46F8 /* ViewController.swift */,
+				1CD491DE1A9927FB00DA46F8 /* DatePickerController.swift */,
+				1CD491FC1A9928D300DA46F8 /* ColorPickerController.swift */,
+				1CD491FE1A9928E700DA46F8 /* FontPickerController.swift */,
+				1CD492001A9928F700DA46F8 /* OutputViewController.swift */,
 				1CD491E01A9927FB00DA46F8 /* Main.storyboard */,
 				1CD491E31A9927FB00DA46F8 /* Images.xcassets */,
 				1CD491E51A9927FB00DA46F8 /* LaunchScreen.xib */,
@@ -161,6 +170,7 @@
 				TargetAttributes = {
 					1CD491D61A9927FB00DA46F8 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L9GR6R2227;
 					};
 					1CD491EB1A9927FB00DA46F8 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -212,7 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD491DF1A9927FB00DA46F8 /* ViewController.swift in Sources */,
+				1CD492011A9928F700DA46F8 /* OutputViewController.swift in Sources */,
+				1CD491DF1A9927FB00DA46F8 /* DatePickerController.swift in Sources */,
+				1CD491FD1A9928D300DA46F8 /* ColorPickerController.swift in Sources */,
+				1CD491FF1A9928E700DA46F8 /* FontPickerController.swift in Sources */,
 				1CD491DD1A9927FB00DA46F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PickerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PickerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +420,7 @@
 				1CD491F81A9927FB00DA46F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CD491F91A9927FB00DA46F8 /* Build configuration list for PBXNativeTarget "PickerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +429,7 @@
 				1CD491FB1A9927FB00DA46F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

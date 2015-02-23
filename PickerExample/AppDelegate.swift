@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PickerExample
 //
-//  Created by Mae Yee on 2015-02-21.
+//  Created by Mae Yee on 2015-02-15.
 //  Copyright (c) 2015 Mae Yee. All rights reserved.
 //
 
