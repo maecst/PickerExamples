@@ -25,6 +25,11 @@ class DatePickerController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         dateLabel.text = "< not selected >"
+        
+        if let navController = self.navigationController {
+            navController.navigationBarHidden = true
+            navController.popToRootViewControllerAnimated(false)
+        }
     }
     
     override func didReceiveMemoryWarning() {

@@ -18,9 +18,9 @@ class FontPickerController: UIViewController, UIPickerViewDataSource, UIPickerVi
     let data =
     [
         ["Arial", "Avenir", "Baskerville", "Georgia", "Helvetica", "Optima", "Palatino", "Papyrus", "Times New Roman", "Trebuchet MS", "Verdana"],
-        ["20", "24", "28", "32", "36"]
+        ["20", "24", "28", "32"]
     ]
-    let sizes: [CGFloat] = [20.0, 24.0, 28.0, 32.0, 36.0]
+    let sizes: [CGFloat] = [20.0, 24.0, 28.0, 32.0]
     
     // data that will be passed along to the next view controller
     var date:String!

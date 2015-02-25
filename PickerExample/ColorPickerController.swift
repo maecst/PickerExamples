@@ -28,6 +28,10 @@ class ColorPickerController: UIViewController, UIPickerViewDataSource, UIPickerV
         colorPicker.dataSource = self
         colorPicker.delegate = self
         colorLabel.text = "< not selected >"
+        
+        if let navController = self.navigationController {
+            navController.navigationBarHidden = false
+        }
     }
     
     override func didReceiveMemoryWarning() {
