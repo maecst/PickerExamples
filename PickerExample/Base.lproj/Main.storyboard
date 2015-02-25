@@ -46,7 +46,6 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="dateButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jf2-5j-5Jf"/>
                                     <segue destination="1KE-gR-k2o" kind="show" identifier="toColorPicker" id="B5c-Ng-k9e"/>
                                 </connections>
                             </button>
@@ -131,21 +130,21 @@
                                 <exclude reference="SDB-MO-zNT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2bF-4b-Ow7"/>
-                                <exclude reference="FIP-tt-fTv"/>
-                                <exclude reference="ub7-wg-53k"/>
-                                <exclude reference="XRY-Pp-5nm"/>
-                                <exclude reference="Xr5-kt-lST"/>
-                                <exclude reference="aI0-dh-4Zq"/>
-                                <exclude reference="hpB-9p-yMg"/>
+                                <exclude reference="6gE-LR-d2H"/>
                                 <exclude reference="E6k-g7-OZ4"/>
                                 <exclude reference="JRk-cy-ZlP"/>
                                 <exclude reference="T4U-cr-pdO"/>
+                                <exclude reference="2bF-4b-Ow7"/>
+                                <exclude reference="FIP-tt-fTv"/>
+                                <exclude reference="ub7-wg-53k"/>
                                 <exclude reference="EIq-FX-OY4"/>
                                 <exclude reference="RQe-LI-Zhp"/>
                                 <exclude reference="o8p-zP-oea"/>
                                 <exclude reference="vxG-w4-ygG"/>
-                                <exclude reference="6gE-LR-d2H"/>
+                                <exclude reference="XRY-Pp-5nm"/>
+                                <exclude reference="Xr5-kt-lST"/>
+                                <exclude reference="aI0-dh-4Zq"/>
+                                <exclude reference="hpB-9p-yMg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -156,21 +155,21 @@
                                 <include reference="SDB-MO-zNT"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2bF-4b-Ow7"/>
-                                <include reference="FIP-tt-fTv"/>
-                                <include reference="ub7-wg-53k"/>
-                                <include reference="XRY-Pp-5nm"/>
-                                <include reference="Xr5-kt-lST"/>
-                                <include reference="aI0-dh-4Zq"/>
-                                <include reference="hpB-9p-yMg"/>
+                                <include reference="6gE-LR-d2H"/>
                                 <include reference="E6k-g7-OZ4"/>
                                 <include reference="JRk-cy-ZlP"/>
                                 <include reference="T4U-cr-pdO"/>
+                                <include reference="2bF-4b-Ow7"/>
+                                <include reference="FIP-tt-fTv"/>
+                                <include reference="ub7-wg-53k"/>
                                 <exclude reference="EIq-FX-OY4"/>
                                 <include reference="RQe-LI-Zhp"/>
                                 <exclude reference="o8p-zP-oea"/>
                                 <exclude reference="vxG-w4-ygG"/>
-                                <include reference="6gE-LR-d2H"/>
+                                <include reference="XRY-Pp-5nm"/>
+                                <include reference="Xr5-kt-lST"/>
+                                <include reference="aI0-dh-4Zq"/>
+                                <include reference="hpB-9p-yMg"/>
                             </mask>
                         </variation>
                     </view>
@@ -264,7 +263,6 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="colorButtonPressed:" destination="1KE-gR-k2o" eventType="touchUpInside" id="cpC-Zj-aXo"/>
                                     <segue destination="LKc-Mo-nkl" kind="show" identifier="toFontPicker" id="qBJ-do-Qsf"/>
                                 </connections>
                             </button>
@@ -296,20 +294,20 @@
                                 <exclude reference="K4C-W5-ac0"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="DNQ-SR-paw"/>
                                 <exclude reference="7GL-yN-qLE"/>
                                 <exclude reference="HIZ-nQ-hVj"/>
                                 <exclude reference="WyI-WE-sJK"/>
                                 <exclude reference="b8t-Ir-wX3"/>
-                                <exclude reference="L8r-OH-oYF"/>
-                                <exclude reference="btz-OK-E41"/>
-                                <exclude reference="xup-7O-36Z"/>
                                 <exclude reference="8U5-2b-XhL"/>
                                 <exclude reference="eC7-8R-7qa"/>
                                 <exclude reference="erf-pz-jbF"/>
+                                <exclude reference="L8r-OH-oYF"/>
+                                <exclude reference="btz-OK-E41"/>
+                                <exclude reference="xup-7O-36Z"/>
                                 <exclude reference="6CV-LV-tw6"/>
                                 <exclude reference="7ov-XA-aFa"/>
                                 <exclude reference="pEp-jr-36P"/>
-                                <exclude reference="DNQ-SR-paw"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -320,20 +318,20 @@
                                 <include reference="K4C-W5-ac0"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="DNQ-SR-paw"/>
                                 <include reference="7GL-yN-qLE"/>
                                 <include reference="HIZ-nQ-hVj"/>
                                 <include reference="WyI-WE-sJK"/>
                                 <include reference="b8t-Ir-wX3"/>
-                                <include reference="L8r-OH-oYF"/>
-                                <include reference="btz-OK-E41"/>
-                                <include reference="xup-7O-36Z"/>
                                 <include reference="8U5-2b-XhL"/>
                                 <include reference="eC7-8R-7qa"/>
                                 <include reference="erf-pz-jbF"/>
+                                <include reference="L8r-OH-oYF"/>
+                                <include reference="btz-OK-E41"/>
+                                <include reference="xup-7O-36Z"/>
                                 <exclude reference="6CV-LV-tw6"/>
                                 <include reference="7ov-XA-aFa"/>
                                 <exclude reference="pEp-jr-36P"/>
-                                <include reference="DNQ-SR-paw"/>
                             </mask>
                         </variation>
                     </view>
@@ -374,8 +372,7 @@
                                         <exclude reference="jOK-58-fWh"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="40" y="45" width="320" height="199"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="jOK-58-fWh"/>
                                     </mask>
@@ -393,8 +390,7 @@
                                         <exclude reference="Usb-tK-G6T"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="50" y="50" width="300" height="40"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Usb-tK-G6T"/>
                                     </mask>
@@ -428,18 +424,16 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="fontButtonPressed:" destination="LKc-Mo-nkl" eventType="touchUpInside" id="B7M-Uy-mxB"/>
-                                    <action selector="tryAgainButtonPress:" destination="zG1-vQ-h6d" eventType="touchUpInside" id="c0R-NR-8ze"/>
                                     <segue destination="vXZ-lx-hvc" kind="show" identifier="toDatePicker" id="Q3r-cn-r21"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVy-sf-tSB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVy-sf-tSB">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="40" y="302" width="320" height="176"/>
+                                    <rect key="frame" x="163" y="303" width="74" height="175"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -472,13 +466,14 @@
                                 <exclude reference="NVy-sf-tSB"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="qjn-p6-41L"/>
+                                <exclude reference="s7e-et-VtB"/>
+                                <exclude reference="ZTx-8F-FWp"/>
                                 <exclude reference="H1F-Vb-UgC"/>
                                 <exclude reference="Nnb-ZJ-zxB"/>
                                 <exclude reference="R8v-fc-Fat"/>
                                 <exclude reference="YdG-ah-AyT"/>
                                 <exclude reference="pkX-xt-XDZ"/>
-                                <exclude reference="qjn-p6-41L"/>
-                                <exclude reference="s7e-et-VtB"/>
                                 <exclude reference="T6B-mb-La7"/>
                                 <exclude reference="ZCw-r8-AKM"/>
                                 <exclude reference="Znl-LU-jI3"/>
@@ -487,7 +482,6 @@
                                 <exclude reference="21j-Ep-eyZ"/>
                                 <exclude reference="CML-G7-bIs"/>
                                 <exclude reference="zZL-Fq-VKk"/>
-                                <exclude reference="ZTx-8F-FWp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -498,13 +492,14 @@
                                 <include reference="NVy-sf-tSB"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="qjn-p6-41L"/>
+                                <include reference="s7e-et-VtB"/>
+                                <include reference="ZTx-8F-FWp"/>
                                 <exclude reference="H1F-Vb-UgC"/>
                                 <include reference="Nnb-ZJ-zxB"/>
                                 <exclude reference="R8v-fc-Fat"/>
                                 <exclude reference="YdG-ah-AyT"/>
                                 <include reference="pkX-xt-XDZ"/>
-                                <include reference="qjn-p6-41L"/>
-                                <include reference="s7e-et-VtB"/>
                                 <exclude reference="T6B-mb-La7"/>
                                 <include reference="ZCw-r8-AKM"/>
                                 <include reference="Znl-LU-jI3"/>
@@ -513,7 +508,6 @@
                                 <include reference="21j-Ep-eyZ"/>
                                 <exclude reference="CML-G7-bIs"/>
                                 <exclude reference="zZL-Fq-VKk"/>
-                                <include reference="ZTx-8F-FWp"/>
                             </mask>
                         </variation>
                     </view>
@@ -542,6 +536,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Font" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJl-ii-mZZ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="32"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lt-Zh-fOH">
+                                <rect key="frame" x="0.0" y="-162" width="320" height="162"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZo-td-tCy">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnO-OJ-KiB">
@@ -575,22 +578,9 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="fontButtonPressed:" destination="LKc-Mo-nkl" eventType="touchUpInside" id="0vG-47-wDn"/>
                                     <segue destination="zG1-vQ-h6d" kind="show" identifier="toOutputView" id="ZoK-Sn-w1K"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lt-Zh-fOH">
-                                <rect key="frame" x="0.0" y="-162" width="320" height="162"/>
-                            </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZo-td-tCy">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="16" y="372" width="368" height="120"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -613,51 +603,51 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="PJl-ii-mZZ"/>
-                                <exclude reference="XnO-OJ-KiB"/>
                                 <exclude reference="6lt-Zh-fOH"/>
                                 <exclude reference="tZo-td-tCy"/>
+                                <exclude reference="XnO-OJ-KiB"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9YQ-bl-P7G"/>
-                                <exclude reference="Yo0-cN-HMv"/>
-                                <exclude reference="oC0-5a-NPZ"/>
                                 <exclude reference="bLb-pB-EFw"/>
                                 <exclude reference="dCz-rc-at8"/>
                                 <exclude reference="mEB-00-3pE"/>
+                                <exclude reference="9YQ-bl-P7G"/>
+                                <exclude reference="Yo0-cN-HMv"/>
+                                <exclude reference="oC0-5a-NPZ"/>
                                 <exclude reference="AeV-Jh-eyQ"/>
                                 <exclude reference="qRP-IS-OLi"/>
+                                <exclude reference="cGc-WA-mBL"/>
                                 <exclude reference="815-eL-PzC"/>
                                 <exclude reference="QsU-Kl-mZo"/>
                                 <exclude reference="RbI-bR-WuN"/>
                                 <exclude reference="TnI-z1-oSB"/>
                                 <exclude reference="Zzz-NX-Cc5"/>
                                 <exclude reference="lf4-HX-xqi"/>
-                                <exclude reference="cGc-WA-mBL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="PJl-ii-mZZ"/>
-                                <include reference="XnO-OJ-KiB"/>
                                 <include reference="6lt-Zh-fOH"/>
                                 <include reference="tZo-td-tCy"/>
+                                <include reference="XnO-OJ-KiB"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9YQ-bl-P7G"/>
-                                <include reference="Yo0-cN-HMv"/>
-                                <include reference="oC0-5a-NPZ"/>
                                 <include reference="bLb-pB-EFw"/>
                                 <include reference="dCz-rc-at8"/>
                                 <include reference="mEB-00-3pE"/>
+                                <include reference="9YQ-bl-P7G"/>
+                                <include reference="Yo0-cN-HMv"/>
+                                <include reference="oC0-5a-NPZ"/>
                                 <include reference="AeV-Jh-eyQ"/>
                                 <include reference="qRP-IS-OLi"/>
+                                <include reference="cGc-WA-mBL"/>
                                 <exclude reference="815-eL-PzC"/>
                                 <exclude reference="QsU-Kl-mZo"/>
                                 <exclude reference="RbI-bR-WuN"/>
                                 <include reference="TnI-z1-oSB"/>
                                 <include reference="Zzz-NX-Cc5"/>
                                 <exclude reference="lf4-HX-xqi"/>
-                                <include reference="cGc-WA-mBL"/>
                             </mask>
                         </variation>
                     </view>

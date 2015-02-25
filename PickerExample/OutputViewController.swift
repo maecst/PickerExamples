@@ -22,10 +22,6 @@ class OutputViewController: UIViewController {
     var isOrWas: String!
     var fontName: String!
     
-    @IBAction func tryAgainButtonPress(sender: AnyObject) {
-        self.performSegueWithIdentifier("toDatePicker", sender:nil)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad();
         

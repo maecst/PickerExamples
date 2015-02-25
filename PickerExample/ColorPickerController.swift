@@ -51,10 +51,6 @@ class ColorPickerController: UIViewController, UIPickerViewDataSource, UIPickerV
         colorLabel.textColor = pickerColour[row]
     }
     
-    @IBAction func colorButtonPressed(sender: UIButton) {
-        self.performSegueWithIdentifier("toFontPicker", sender:nil)
-    }
-    
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
  
         if (segue.identifier == "toFontPicker") {

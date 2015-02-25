@@ -69,10 +69,6 @@ class FontPickerController: UIViewController, UIPickerViewDataSource, UIPickerVi
         fontLabel.text = "\(fontName) \n \(fontSize) pt."
     }
     
-    @IBAction func fontButtonPressed(sender: UIButton) {
-        self.performSegueWithIdentifier("toOutputView", sender:nil)
-    }
-    
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
  
         if (segue.identifier == "toOutputView") {

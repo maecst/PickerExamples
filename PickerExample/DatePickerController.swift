@@ -57,10 +57,6 @@ class DatePickerController: UIViewController {
         dateLabel.text = date
     }
     
-    @IBAction func dateButtonPressed(sender: UIButton) {
-        self.performSegueWithIdentifier("toColorPicker", sender:nil)
-    }
-    
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
         
         if (segue.identifier == "toColorPicker") {
