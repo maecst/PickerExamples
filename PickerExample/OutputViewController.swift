@@ -37,7 +37,7 @@ class OutputViewController: UIViewController {
             // set the output label font, color, and text to display
             outputLabel.font = font
             outputLabel.textColor = colour
-            outputLabel.text = "\(date) \(isOrWas) \n \(dayOfWeek)"
+            outputLabel.text = "\(date)\n\(isOrWas)\n\(dayOfWeek)"
         }
         
         // set the message label font style to match the output label
